@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.categories-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.category-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
